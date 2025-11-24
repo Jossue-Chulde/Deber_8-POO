@@ -1,0 +1,6 @@
+// 2. Unchecked
+public class MaterialNoDisponibleException extends RuntimeException {
+    public MaterialNoDisponibleException(String mensaje) {
+        super(mensaje);
+    }
+}
